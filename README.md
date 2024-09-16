@@ -9,9 +9,9 @@ docker build -t vfe .<br/>
 docker run -p 8888:8888 vfe<br/>
 
 ## To access the Jupyter notebook:
-Once all that is done, you should be able to open the ipynb file on jupyter via http://localhost:8888<br/>
+Once all that is done, you should be able to open the .ipynb file on jupyter via http://localhost:8888<br/>
 
 You may replace [localhost] with your public ip, which can be found by doing curl ifconfig.me<br/>
 
-### Note: If you don't like using docker, remember to install the following dependency using this command:
+## Note: If you don't like using docker, remember to install the following dependency using this command:
 pip install opencv-python
