@@ -2,7 +2,7 @@
 Dockerized Video Frame Extractor written in Python<br/>
 
 ## To build the docker image:
-With Docker Desktop Service started, do the following command:<br/>
+With Docker Desktop Service started, do the following command in the project directory:<br/>
 docker build -t vfe .<br/>
 
 ## To run the docker image:
